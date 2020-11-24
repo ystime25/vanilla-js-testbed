@@ -1,0 +1,16 @@
+@import "css/reset.css";
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  background-color: mediumaquamarine;
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  font-weight: 600;
+}
