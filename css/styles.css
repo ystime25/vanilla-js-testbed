@@ -1,4 +1,7 @@
-@import "css/reset.css";
+@import "reset.css";
+@import "clock.css";
+@import "greetings.css";
+@import "todo.css";
 
 body {
   position: relative;
@@ -7,10 +10,19 @@ body {
   height: 90vh;
   background-color: mediumaquamarine;
 }
-
-#title {
+header {
   position: absolute;
-  top: 50%;
+  top: 15%;
   font-size: 30px;
   font-weight: 600;
+  color: white;
+  transition: color 0.5s ease-in-out;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.clicked {
+  color: pink;
 }

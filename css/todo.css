@@ -1,0 +1,18 @@
+.js-toDoForm {
+  position: absolute;
+  top: 47%;
+  font-weight: 600;
+}
+
+.js-toDoForm input {
+  font-size: 25px;
+  text-align: center;
+}
+
+.js-toDoList {
+  position: absolute;
+  top: 55%;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
