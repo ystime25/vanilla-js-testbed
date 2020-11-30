@@ -14,5 +14,12 @@
   top: 55%;
   font-weight: 600;
   font-size: 25px;
-  text-align: center;
+}
+
+.js-toDoList li {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
